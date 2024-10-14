@@ -94,7 +94,7 @@ adata = sc.read("result/example.h5ad")
 adata.obs.predicted
 ```
 
-<img title="" src="annotation_result.jpg" alt="annotation_result.jpg" width="651">
+<img title="" src="fig/annotation_result.jpg" alt="annotation_result.jpg" width="651">
 
 #### Parameter description
 
