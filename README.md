@@ -115,3 +115,6 @@ Run `python hrca.py --help` for help
 `--batch_size`  HRCA annotate data in multiple batches. Set the batch size. 
 
 `--num_workers`  The number of cpu cores to used in calculation.
+
+# Training
+#### We will be providing the training code shortly.
