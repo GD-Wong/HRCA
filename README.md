@@ -21,6 +21,8 @@ or
 `docker pull crpi-0oscy345z4o1ndx7.cn-guangzhou.personal.cr.aliyuncs.com/gd-wong/hrca:v1`
 
 #### Build the container
+Get [IMAGE ID of HRCA] by,
+`docker image ls`
 
 With nvidia gpu, run
 
