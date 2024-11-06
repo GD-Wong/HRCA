@@ -24,11 +24,11 @@ or
 
 With nvidia gpu, run
 
-`nvidia-docker run -it --ipc=host --name hrca bae56eef65cc bash`
+`nvidia-docker run -it --ipc=host --name hrca [IMAGE ID of HRCA] bash`
 
 Without gpu, run
 
-`docker run -it --ipc=host --name hrca bae56eef65cc bash`
+`docker run -it --ipc=host --name hrca [IMAGE ID of HRCA] bash`
 
 Then, enter the work path in container by
 
