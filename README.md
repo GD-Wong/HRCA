@@ -14,21 +14,21 @@
 
 #### Pull the image of HRCA
 
-`docker pull gdawong/hrca:v0`
+`docker pull gdawong/hrca:v1`
 
 or
 
-`docker pull crpi-0oscy345z4o1ndx7.cn-guangzhou.personal.cr.aliyuncs.com/gd-wong/hrca:v0`
+`docker pull crpi-0oscy345z4o1ndx7.cn-guangzhou.personal.cr.aliyuncs.com/gd-wong/hrca:v1`
 
 #### Build the container
 
 With nvidia gpu, run
 
-`nvidia-docker run -it --ipc=host --name hrca 71088e89ea6b bash`
+`nvidia-docker run -it --ipc=host --name hrca bae56eef65cc bash`
 
 Without gpu, run
 
-`docker run -it --ipc=host --name hrca 71088e89ea6b bash`
+`docker run -it --ipc=host --name hrca bae56eef65cc bash`
 
 Then, enter the work path in container by
 
