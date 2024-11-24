@@ -79,7 +79,7 @@ Then, activate environment by
 
 We also provide a Conda package that includes the functionality to train new models for annotation. This package will be further refined in the future. It can be installed as below.
 
-`conda env create -n hrca`
+`conda create -n hrca`
 
 `conda activate hrca`
 
