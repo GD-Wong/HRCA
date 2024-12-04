@@ -77,7 +77,7 @@ Then, activate environment by
 `conda activate hrca`
 #### Conda Packages (Unstable)
 
-We also provide a Conda package that includes the functionality to train new models for annotation. This package will be further refined in the future. It can be installed as below.
+We also provide a Conda package (https://github.com/GD-Wong/hrca-package) that includes the functionality to train new models for annotation. This package will be further refined in the future. It can be installed as below.
 
 `conda create -n hrca`
 
